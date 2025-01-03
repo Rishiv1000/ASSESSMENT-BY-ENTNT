@@ -10,9 +10,7 @@ function Dashboard() {
         <h3>NAME - RISHI VERMA</h3>
         <p>DEGREE - BTECH CSE</p>
         <p>PASSOUT YEAR - 2025</p>
-        <p>Resume: 
-          <a href="path_to_resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">Click here to view</a>
-        </p>
+        
       </div>
 
       {/* Title for Technical Assignment */}
