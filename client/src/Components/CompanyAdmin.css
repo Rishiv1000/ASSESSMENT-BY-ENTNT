@@ -1,0 +1,125 @@
+/* General container styling */
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+/* Styling for the add company section */
+.add-company {
+ width: 48%; /* Buttons will take up 48% of the column width, leaving space between */
+  padding: 44px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, hsl(0, 0%, 100%), #1E40AF); /* Gradient blue light */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+/* Heading for Add/Edit company */
+.add-company-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for form input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Table styling */
+.company-table {
+  width: 95%; /* Table width set to 95% */
+  margin-top: 20px;
+  table-layout: fixed;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+.company-table th, .company-table td {
+  padding: 12px 15px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.company-table th {
+  background: linear-gradient(45deg, #4C6EF5, #1E40AF); /* Gradient blue light */
+  color: white;
+}
+
+.company-table td {
+  border: 1px solid #ddd;
+  height: 60px;
+}
+
+/* Action column container */
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.button-container button {
+  width: 48%; /* Buttons will take up 48% of the column width, leaving space between */
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #f54c4c, #1E40AF); /* Gradient blue light */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.button-container button:hover {
+  background: linear-gradient(45deg, #1E40AF, #4C6EF5); /* Inverted gradient on hover */
+  transform: scale(1.05);
+}
+
+.delete-button {
+  background-color: #000000; /* Red color for delete */
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+
+.edit-button {
+  background-color: #ff9800; /* Orange color for edit */
+}
+
+.edit-button:hover {
+  background-color: #fb8c00;
+  transform: scale(1.05);
+}
+
+/* Responsiveness for mobile */
+@media (max-width: 768px) {
+  .company-table {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center; /* Center the buttons */
+  }
+
+  .button-container button {
+    width: 100%; /* Full width on small screens */
+  }
+}
+

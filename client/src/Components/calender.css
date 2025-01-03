@@ -1,0 +1,265 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #839ac6, #003ca4);  /* Dark blue background for the page */
+  color: #e0f7fa;  /* Light cyan text for contrast */
+}
+
+/* Container Styling */
+.appointment-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #ffffff, #0288d1);  /* Blue gradient */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;  /* White text for contrast */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Calendar and Appointments Layout */
+.calendar-and-appointments {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allows responsiveness */
+}
+
+.calendar-container {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #1b2a3b; /* Dark background for the calendar */
+}
+
+.react-calendar__tile {
+  font-size: 18px;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.react-calendar__tile:hover {
+  background-color: #37474f;  /* Slightly lighter shade on hover */
+  transform: scale(1.05);
+}
+
+.react-calendar__tile.yellow {
+  background-color: #ffe600 !important; /* Lighter yellow for pending */
+}
+
+.react-calendar__tile.red {
+  background-color: #ff0101 !important; /* Soft red for completed */
+}
+
+/* Appointment Details */
+.appointment-details-container {
+  flex: 2;
+  padding: 15px;
+  background-color: #263238;  /* Dark grey background for details */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.appointment-details h3 {
+  font-size: 1.5rem;
+  color: #0288d1;  /* Blue for headings */
+  margin-bottom: 15px;
+}
+
+.close-details-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.close-details-button:hover {
+  background-color: #c62828;
+}
+
+/* Appointment List */
+.appointment-list h3 {
+  font-size: 1.25rem;
+  color: #0288d1;  /* Blue heading for appointment list */
+}
+
+.appointment-item {
+  padding: 12px;
+  border-bottom: 1px solid #001f2f;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.appointment-item:hover {
+  background-color: #455a64;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.view-details-button {
+  padding: 6px 12px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+  background-color: #0277bd;
+}
+
+/* Table Styles */
+.appointment-table-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.appointment-table-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e0f7fa;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed;
+  background-color: #263238;
+  border-radius: 8px;
+}
+
+.appointment-table th, .appointment-table td {
+  padding: 12px 15px;
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #e0f7fa;  /* Light cyan text in table */
+}
+
+.appointment-table th {
+  background-color: #0288d1;
+  color: white;
+  font-size: 16px;
+}
+
+.appointment-table td {
+  border: 1px solid #37474f;
+}
+
+.appointment-table tr:nth-child(even) {
+  background-color: #37474f;
+}
+
+.appointment-table tr:hover {
+  background-color: #455a64;
+}
+
+/* Button Styles */
+.status-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #0442d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.status-button:hover {
+  background-color: #0277bd;
+  transform: scale(1.05);
+}
+
+.status-button-confirmed {
+  padding: 10px 33px;
+  font-size: 14px;
+  background-color: #0cf542;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.status-button-confirmed:hover {
+  background-color: #00BCD4;
+  cursor: not-allowed;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .calendar-and-appointments {
+    flex-direction: column;
+  }
+
+  .calendar-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .appointment-details-container {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .appointment-item {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .appointment-table th, .appointment-table td {
+    padding: 10px 12px;
+  }
+
+  .appointment-table {
+    font-size: 0.9rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .status-button {
+    padding: 8px 16px;
+  }
+
+  .status-button-confirmed {
+    padding: 8px 16px;
+  }
+
+  .close-details-button {
+    padding: 8px 16px;
+  }
+}

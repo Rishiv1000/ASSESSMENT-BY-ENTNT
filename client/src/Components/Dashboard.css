@@ -1,0 +1,93 @@
+/* Dashboard.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(0, 0, 255, 0.8), rgba(223, 238, 255, 0.8)); /* Blue gradient background */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-top: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.info-section {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.info-section h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.info-section p {
+  margin: 0.5rem 0;
+}
+
+.metricsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.metric {
+  background: linear-gradient(145deg, #00bfff, #1e90ff); /* Blue gradient buttons */
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  /* transition: background 0.3s ease, transform 0.3s ease; */
+  /* width: 200px; */
+}
+
+.metric:hover {
+  background: linear-gradient(145deg, #1e90ff, #00bfff); /* Hover effect for the button */
+  transform: scale(1.05);
+}
+
+.metric h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white; /* Ensure text stands out on the blue gradient */
+}
+
+/* Update button color style */
+.metric-link {
+  text-decoration: none;
+  color: white;  /* White text color */
+  padding: 10px 20px;
+  background-color: #000000; /* Green background for buttons */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.metric-link:hover {
+  background-color: #000000; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Button grows slightly on hover */
+}
+
+@media (max-width: 768px) {
+  .metricsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

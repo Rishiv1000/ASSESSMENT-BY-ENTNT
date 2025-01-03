@@ -1,0 +1,126 @@
+/* Main Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #839ac6, #003ca4); /* Blue gradient background */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading */
+.company-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: -webkit-linear-gradient(#FFD700, #FF6347);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Label for inputs */
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #f0f0f0;
+}
+
+/* Input fields */
+input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-top: 0.5rem;
+  width: 250px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Disabled state for input fields */
+input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  color: #b0b0b0;
+}
+
+/* Input focus state */
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Companies List */
+.companies-list {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 3rem;
+}
+
+/* Grid for company rows */
+.company-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr) auto; /* Adding auto column for the button */
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.company-row:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Grid cells */
+.company-cell {
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* Appointment Button Container (Align to right) */
+.appoint-button-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  align-items: center;
+}
+
+/* Appointment Button */
+.appoint-button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(145deg, #FF6347, #ffc400); /* Orange gradient */
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.appoint-button:hover {
+  background-color: #e74c3c;
+  transform: scale(1.05);
+}
+
+.appoint-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
