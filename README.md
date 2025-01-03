@@ -5,3 +5,9 @@ The application is deployed on Vercel and can be accessed using the link below:
 
 
 VERCEL DEPLOY- https://entnt-assessment.vercel.app/
+
+
+Technologies Used
+Frontend: React.js
+Backend: Node.js / Express.js
+Deployment: Vercel
