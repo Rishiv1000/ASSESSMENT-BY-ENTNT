@@ -9,7 +9,7 @@ const app = express();
 
 // Define CORS options
 const corsOptions = {
-  origin: 'https://entnt-assessment.vercel.app/', // Allow requests from localhost:3000 (React app)
+  origin: 'https://entnt-assessment.vercel.app', // Allow requests from localhost:3000 (React app)
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these methods
   allowedHeaders: ['Content-Type', 'Authorization'] // Allow these headers
 };
