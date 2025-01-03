@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1735843157463,
+    "customername": "Rome",
+    "companyname": "Tech Innovations Pvt Ltd",
+    "orderDate": "2025-01-01",
+    "status": "pending",
+    "communicationPeriodicity": "Every month"
+  },
+  {
+    "id": 1735843157464,
+    "customername": "John Doe",
+    "companyname": "Global Enterprises Inc.",
+    "orderDate": "2025-01-02",
+    "status": "confirmed",
+    "communicationPeriodicity": "Every 3 months"
+  },
+  {
+    "id": 1735843157465,
+    "customername": "Jane Smith",
+    "companyname": "Innovative Solutions Ltd.",
+    "orderDate": "2025-01-03",
+    "status": "pending",
+    "communicationPeriodicity": "Every month"
+  },
+  {
+    "id": 1735893595241,
+    "customername": "John",
+    "companyname": "Future Fintech",
+    "orderDate": "2025-01-03",
+    "status": "pending",
+    "communicationPeriodicity": "Every month"
+  },
+  {
+    "id": 1735898421805,
+    "customername": "Company A",
+    "companyname": "Global Tech Systems",
+    "orderDate": "2025-01-03",
+    "status": "pending",
+    "communicationPeriodicity": "Every month"
+  }
+]

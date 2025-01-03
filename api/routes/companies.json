@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "companyname": "NextGen Solutions Ltd.",
+    "location": "Bangalore, India",
+    "linkedinProfile": "https://www.linkedin.com/company/nextgen-solutions-ltd/",
+    "emails": [
+      "contact@nextgensolutions.com"
+    ],
+    "phoneNumbers": [
+      "+91 9845302945"
+    ],
+    "comments": "A leader in cloud-based solutions, specializing in data analytics and cybersecurity.",
+    "communicationPeriodicity": "Monthly"
+  },
+  {
+    "id": 2,
+    "companyname": "Global Tech Systems",
+    "location": "New York, USA",
+    "linkedinProfile": "https://www.linkedin.com/company/global-tech-systems/",
+    "emails": [
+      "support@globaltechsystems.com"
+    ],
+    "phoneNumbers": [
+      "+1 212-555-9876"
+    ],
+    "comments": "Innovative software solutions tailored to industries like healthcare, finance, and retail.",
+    "communicationPeriodicity": "Quarterly"
+  },
+  {
+    "id": 3,
+    "companyname": "Creative Web Design Studio",
+    "location": "Berlin, Germany",
+    "linkedinProfile": "https://www.linkedin.com/company/creative-web-design-studio/",
+    "emails": [
+      "info@creativewebdesign.com"
+    ],
+    "phoneNumbers": [
+      "+49 30 12345678"
+    ],
+    "comments": "Expert web design and branding agency, delivering high-quality user experiences.",
+    "communicationPeriodicity": "Bi-Annually"
+  },
+  {
+    "id": 4,
+    "companyname": "Innovative IoT Solutions",
+    "location": "Toronto, Canada",
+    "linkedinProfile": "https://www.linkedin.com/company/innovative-iot-solutions/",
+    "emails": [
+      "hello@innovativeiot.com"
+    ],
+    "phoneNumbers": [
+      "+1 416-987-6543"
+    ],
+    "comments": "Pioneers in the Internet of Things, developing smart home and industrial automation solutions.",
+    "communicationPeriodicity": "Monthly"
+  },
+  {
+    "id": 5,
+    "companyname": "Future Fintech Group",
+    "location": "London, UK",
+    "linkedinProfile": "https://www.linkedin.com/company/future-fintech-group/",
+    "emails": [
+      "contact@futurefintechgroup.com"
+    ],
+    "phoneNumbers": [
+      "+44 20 79460232"
+    ],
+    "comments": "Leading the way in blockchain and cryptocurrency services, offering innovative financial technologies.",
+    "communicationPeriodicity": "Quarterly"
+  },
+  {
+    "id": 6,
+    "companyname": "EcoTech Enterprises",
+    "location": "Sydney, Australia",
+    "linkedinProfile": "https://www.linkedin.com/company/ecotech-enterprises/",
+    "emails": [
+      "sales@ecotechenterprises.com"
+    ],
+    "phoneNumbers": [
+      "+61 2 8005 4000"
+    ],
+    "comments": "Focused on sustainability, offering eco-friendly products and energy-efficient solutions.",
+    "communicationPeriodicity": "Bi-Annually"
+  },
+  {
+    "id": 7,
+    "companyname": "Smart AI Solutions",
+    "location": "San Francisco, USA",
+    "linkedinProfile": "https://www.linkedin.com/company/smart-ai-solutions/",
+    "emails": [
+      "contact@smartaisolutions.com"
+    ],
+    "phoneNumbers": [
+      "+1 415-555-1234"
+    ],
+    "comments": "AI-powered solutions for various industries including healthcare, automotive, and finance.",
+    "communicationPeriodicity": "Monthly"
+  }
+]
