@@ -3,7 +3,7 @@ Entnt Technical Project: Calendar Application for Communication Tracking is a we
 Deployment
 The application is deployed on Vercel and can be accessed using the link below:
 
-please wait about 45 sec, because  of free Render server starting 
+<h1> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 60 Second) Because Render Server awake from Sleep State </h1> 
 VERCEL DEPLOY- https://entnt-assessment.vercel.app/
 
 
